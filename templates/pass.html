@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Table V02</title>
+    <meta charset="UTF-8">
+  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+
+	<link rel="icon" type="image/png" href=" {{ url_for('static', filename='images1/icons/favicon.ico') }}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor1/bootstrap/css/bootstrap.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='fonts1/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor1/animate/animate.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='vendor1/select2/select2.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor1/perfect-scrollbar/perfect-scrollbar.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="  {{ url_for('static', filename='css1/util.css') }}">
+	<link rel="stylesheet" type="text/css" href= " {{ url_for('static', filename='css1/main.css') }}">
+<!--===============================================================================================-->
+
+<style>
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	</style>
+</head>
+<body style="background-color:#2fc4b2;">
+	
+	
+	<h1 style="color:blue; text-align:center;" >Query Results!!</h1>
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+				
+					<div class="table">
+
+						<div class="row header">
+							<div class="cell">
+								Results
+							</div>
+							
+							
+						</div>
+
+						<div class="row">
+							
+							<div class="cell" data-title="Age">
+								{{ subscriber_count }}
+							</div>
+							
+						</div>
+
+						<div class="row">
+							
+							<div class="cell" data-title="Age">
+								{{ channel_name }}
+							</div>
+							
+						</div>
+
+						<div class="row">
+							
+							<div class="cell" data-title="Age">
+								{{ channel_created_date }}
+							</div>
+							
+						</div>
+
+						<div class="row">
+						
+							<div class="cell" data-title="Age">
+								{{ video_count }}
+							</div>
+							
+						</div>
+
+						<div class="row">
+							
+							<div class="cell" data-title="Age">
+								{{ view_count }}
+							</div>
+							   
+						</div>
+
+						
+
+					</div>
+			</div>
+		</div>
+	</div>
+
+
+   
+
+<!--===============================================================================================-->	
+	<script src=" {{ url_for('static', filename='vendor1/jquery/jquery-3.2.1.min.js') }}"></script>
+<!--===============================================================================================-->
+	<script src=" {{ url_for('static', filename='vendor1/bootstrap/js/popper.js') }}"></script>
+	<script src=" {{ url_for('static', filename='vendor1/bootstrap/js/bootstrap.min.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ url_for('static', filename='vendor1/select2/select2.min.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ url_for('static', filename='js1/main.js') }}"></script>
+
+</body>
+</html>
